@@ -7,9 +7,10 @@ pygame.init()
 
 
 # Window
-SIZE = (800, 600)
+WIDTH = 800
+HEIGHT = 600
 TITLE = "My Awesome Picture"
-screen = pygame.display.set_mode(SIZE)
+screen = pygame.display.set_mode([WIDTH, HEIGHT])
 pygame.display.set_caption(TITLE)
 
 
